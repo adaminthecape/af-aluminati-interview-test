@@ -30,7 +30,7 @@
       }
     },
     methods: {
-      /** Renamed n() and hov() to something more descriptive **/
+      /** Renamed n() to getNumbers() **/
       getNumbers() {
         let numbers = [];
         /** changed var to let **/
@@ -49,7 +49,7 @@
         // this.$set( this.numbers, 0, result );
         return result;
       },
-      /** Renamed n() and hov() to something more descriptive **/
+      /** Renamed hov() to highlightDivisors() **/
       highlightDivisors(number) {
         /** changed to get data more efficiently **/
           // const nums = document.querySelectorAll('.number');
